@@ -251,3 +251,16 @@ input.error + .error-text {
 .white {
     color: #fff;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 750px) {
+    body {
+        background-color: #202020;
+    }
+    
+    main {
+        width: 100%;
+    }
+}
