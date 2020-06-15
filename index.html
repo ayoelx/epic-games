@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to your Epic Games Account | Epic Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="epic-games-form">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+
+        <div class="social-media">
+            <button class="facebook"><img src="./images/fb.png" alt="facebook" class="icon"></button>
+            <button class="google"><img src="./images/google.png" alt="google" class="icon"></button>
+            <button class="ps"><img src="./images/ps.png" alt="playstation" class="icon"></button>
+            <button class="xbox"><img src="./images/xbox.png" alt="xbox" class="icon"></button>
+            <button class="switch"><img src="./images/switch.png" alt="switch" class="icon"></button>
+        </div>
+
+        
+        <form>
+            <h4>Sign in with an epic games account</h4>
+
+            <div class="textbox">
+                <input id="username" type="text" placeholder="Username Or Email" autocomplete="off">
+                <div class="error-text">Required</div>
+            </div>
+
+            <div class="textbox">
+                <input id="password" type="password" placeholder="Password" autocomplete="off">
+                <div class="error-text">Required</div>
+            </div>
+
+            <div class="options">
+                <label class="remember-me">
+                <span class="checkbox">
+                    <input type="checkbox">
+                    <span class="checked"></span>
+                </span>
+                    Remember me
+                </label>
+                <a href="#" class="forgot">Forgot Your Password</a>
+            </div>
+
+            <input type="submit" value="Log In Now" class="login-btn" disabled>
+        </form>
+
+        <small><a href="#" class="privacy">Privacy Policy</a></small>
+
+        <small class="sign-up">Don't have an epic account? <a href="#" class="ml-10 white">Sign Up</a></small>
+        <small class="sign-up">
+            Back to <a href="#" class="white">all sign up options</a>
+        </small>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
